@@ -86,7 +86,7 @@ class VerlaengerungsServiceTest {
 
         // Act
         LocalDate neu = service.verlaengere(ausleihe); // test kommentar
-
+        
         // Assert
         // Lösung – zwingend: das Ergebnis prüfen
         assertEquals(LocalDate.of(2026, 11, 23), neu);
