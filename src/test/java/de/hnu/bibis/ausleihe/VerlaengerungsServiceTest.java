@@ -85,7 +85,7 @@ class VerlaengerungsServiceTest {
         when(vormerkungen.existiertVormerkung("T-4711")).thenReturn(false);   // Stubbing
 
         // Act
-        LocalDate neu = service.verlaengere(ausleihe);
+        LocalDate neu = service.verlaengere(ausleihe); // test kommentar
 
         // Assert
         // Lösung – zwingend: das Ergebnis prüfen
